@@ -3,5 +3,5 @@
 ## 安装
 
 ```
-    npm install 'jquery-lazyload-commonjs'
+    npm install jquery-lazyload-commonjs
 ```
