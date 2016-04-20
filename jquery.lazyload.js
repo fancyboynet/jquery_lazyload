@@ -1,4 +1,14 @@
 /*!
+*  Add commonjs support
+* */
+var jQuery;
+if(typeof module !== 'undefined' && typeof exports === 'object') {
+    jQuery = require('jquery');
+}
+else{
+    jQuery = window['jQuery'];
+}
+/*!
  * Lazy Load - jQuery plugin for lazy loading images
  *
  * Copyright (c) 2007-2015 Mika Tuupola
